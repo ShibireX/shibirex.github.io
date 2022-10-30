@@ -275,7 +275,7 @@ footer .information {
         transform: scale(0.7);
         position: relative;
         top: -15px;
-        margin-left: -20px;
+        margin-left: -5px;
     }
 
     .photoshop {
@@ -293,10 +293,11 @@ footer .information {
     .choose_category p {
         transform: scale(0.7);
         margin-bottom: 0px;
+        margin-top: -200px
     }
 
     #categories {
-        margin-bottom: -200px;
+        margin-bottom: -450px;
     }
 
     header h1, h2 {
