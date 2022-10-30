@@ -259,3 +259,48 @@ footer .information {
     opacity: 0.6;
 }
 
+@media only screen and (max-width: 1920px) {
+
+    .python {
+        transform: scale(0.7);
+        margin-left: 100px;
+    }
+
+    .figma {
+        transform: scale(0.7);
+        margin-left: 10px;
+    }
+
+    .csharp {
+        transform: scale(0.7);
+        position: relative;
+        top: -15px;
+        margin-left: -20px;
+    }
+
+    .photoshop {
+        transform: scale(0.7);
+        margin-left: 10px;
+    }
+
+    .videoediting {
+        transform: scale(0.7);
+        position: relative;
+        top: -20px;
+        margin-left: -50px;
+    }
+
+    .choose_category p {
+        transform: scale(0.7);
+        margin-bottom: 0px;
+    }
+
+    #categories {
+        margin-bottom: -200px;
+    }
+
+    header h1, h2 {
+        transform: scale(0.7);
+    }
+
+}
