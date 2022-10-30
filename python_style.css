@@ -100,6 +100,7 @@ header h1 {
     border: 1px solid rgba(35, 33, 146, 0.384);
     border-left: 0;
     border-right: 0;
+    border-top: 0;
 }
 
 .tonechanger h1 {
@@ -107,11 +108,12 @@ header h1 {
     color: white;
     font-family: 'Times New Roman';
     margin-left: 200px;
+    margin-right: 20px;
 }
 
 .tonechanger img {
     height: 500px;
-    margin-right: 45px;
+    margin-right: 55px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.473);
     filter: brightness(0.3)
 }
@@ -128,7 +130,7 @@ header h1 {
     font-weight: bold;
     font-family: 'Times New Roman';
     top: 200px;
-    left: 314px;
+    left: 305px;
     border: 1px solid #3c18919d;
     border-radius: 5px;
     padding: 20px;
@@ -146,7 +148,7 @@ header h1 {
     padding-left: 130px;
     padding-right: 130px;
     top: -20px;
-    left: 204px;
+    left: 195px;
     filter: brightness(1.4);
 }
 
@@ -155,6 +157,44 @@ header h1 {
     color: white;
     font-weight: lighter;
     font-family: 'Times New Roman';
-    margin-left: -200px;
+    margin-left: -190px;
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 1920px) {
+
+    header h1 {
+        transform: scale(0.7);
+    }
+
+    .content-cards {
+        transform: scale(0.7);
+        margin-top: -200px;
+    }
+
+    .parksafe .info {
+        white-space: nowrap;
+        position: relative;
+        left: 200px;
+        margin-left: -190px;
+    }
+
+    .parksafe h1 {
+        position: relative;
+        left: -100px
+    }
+
+    .tonechanger .info {
+        white-space: nowrap;
+        position: relative;
+        left: 200px;
+    }
+
+    .tonechanger h1 {
+        white-space: nowrap;
+        position: relative;
+        left: -100px
+    }
+    
+
 }
