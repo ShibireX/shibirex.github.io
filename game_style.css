@@ -52,8 +52,13 @@ header h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ai_slides-container::-webkit-scrollbar {
+    display: none;
 }
 
 .ai_slide {
@@ -142,8 +147,14 @@ header h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.brick_slides-container::-webkit-scrollbar {
+    display: none;
 }
 
 .brick_slide {
